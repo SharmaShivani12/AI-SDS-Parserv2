@@ -4,7 +4,7 @@ cd F:\AI_SDS_Parserapp
 call venv\Scripts\activate
 
 echo Adding Node to PATH for this session...
-set PATH=%PATH%;F:\AI_SDS_Parserapp\node-portable
+set PATH=%PATH%; path to node binaries 
 
 echo Starting backend...
 start cmd /k "uvicorn backend.main:app --reload"
