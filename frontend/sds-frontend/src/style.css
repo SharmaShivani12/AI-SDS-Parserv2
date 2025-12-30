@@ -1,0 +1,57 @@
+/* ==============================
+   Global Color Theme
+   ============================== */
+:root {
+  --bg: #F5F2F2;
+  /* Deep black */
+  --card: #FEB05D;
+  /* UI container background */
+  --text: #2B2A2A;
+  /* White text */
+  --muted: #bbbbbb;
+  /* Soft gray text */
+  --green: #4ade80;
+  /* Success green */
+  --green-dark: #5A7ACD;
+  --yellow: #facc15;
+  /* Highlight yellow */
+  --danger: #ff4f4f;
+  /* Delete color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Links */
+a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #86ffb0;
+}
+
+/* General Buttons */
+button {
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+/* Centering App Page */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
